@@ -29,18 +29,17 @@
 </p>
 
 <p align="center">
-  Supervisor: Anastasios Tsilikounas, Laboratory Teaching Staff
+  Supervisor: Eleni Tsalera, Laboratory Teaching Staff
 </p>
 <p align="center">
-  <a href="https://ice.uniwa.gr/en/emd_person/anastasios-tsilikounas/" target="_blank">UNIWA Profile</a> ·
-  <a href="https://www.linkedin.com/in/anastasios-tsilikounas-31111566/" target="_blank">LinkedIn</a>
+  <a href="https://www.researchgate.net/profile/Eleni-Tsalera-2" target="_blank">UNIWA Profile</a>
 </p>
 
 <p align="center">
-  Co-supervisor: Georgios Antoniou, Laboratory Teaching Staff
+  Co-supervisor: Michalis Diamantopoulos, Lecturer in Applications
 </p>
 <p align="center">
-  <a href="https://ice.uniwa.gr/en/emd_person/georgios-antoniou/" target="_blank">UNIWA Profile</a>
+  <a href="https://ice.uniwa.gr/emd_person/22674/" target="_blank">UNIWA Profile</a>
 </p>
 
 <p align="center">
@@ -51,9 +50,12 @@
 
 # Project Overview
 
-This document is a laboratory report for the **Circuit Theory** course within the **Department of Informatics and Computer Engineering** at the **University of West Attica**.
+This project was completed for the **Department of Information and Computer Engineering** at the **University of West Attica (UNIWA)**. It examines the electrical characteristics and operating behavior of **silicon crystal diodes** and **Zener diodes** under different biasing conditions.
 
-The project focuses on the **study and analysis of the resonance effect in RLC circuits**. It explores the behavior of **resistors, inductors, and capacitors** when connected in **series** and **parallel** configurations across varying frequencies.
+The analysis is conducted through:
+- **Theoretical calculations**
+- **Software simulations**
+- **Experimental laboratory measurements**
 
 ---
 
@@ -84,123 +86,181 @@ The project focuses on the **study and analysis of the resonance effect in RLC c
 
 ---
 
-## Key Contents
+## Technical Contents
 
-The report is structured into:
+The project is divided into two main sections:
 
-- **Theoretical Analysis**  
-- **Software Simulations** using *Multisim*  
-- **Experimental Laboratory Results**
+### 1. Crystal Diode (Silicon)
 
----
+A detailed study of a silicon crystal diode, including:
 
-## 1. RLC Series Circuit
+- **Forward Bias**  
+  - Theoretical analysis  
+  - Simulation using **Multisim**  
+  - Experimental laboratory measurements  
 
-**Theory:**  
-Analysis of the frequency at which the **inductive reactance (Xₗ)** and **capacitive reactance (Xc)** cancel each other out.
+- **Inverse Bias**  
+  - Examination of reverse-biased diode behavior  
 
-**Key Observations:**
-
-- The **impedance (Z)** becomes equal to the **ohmic resistance (R)** at resonance.
-- **Maximum current flow** occurs at the resonant frequency.
-- **Overvoltage phenomena** are observed across the capacitor and inductor.
-
-**Formula Used:**  
-
-$$
-f_r = \frac{1}{2\pi\sqrt{LC}}
-$$
-
-Where:  
-- \(f_r\) = resonant frequency  
-- \(L\) = inductance  
-- \(C\) = capacitance
-
+- **Key Findings**  
+  - Observation of the **barrier potential** stabilizing at approximately **0.6 V**  
+  - Experimental verification of **Ohm’s Law** and **Kirchhoff’s Laws**
 
 ---
 
-## 2. RLC Parallel Circuit
+### 2. Zener Diode
 
-- Theoretical solutions and **simulation results** for parallel RLC configurations.  
-- Detailed analysis provided in the report (pages 12–17).
+An investigation into the behavior of Zener diodes, focusing on:
 
----
+- **Forward Bias**  
+  - Analysis of forward conduction characteristics  
 
-## Laboratory Equipment
-
-The experimental work utilized the following tools:
-
-- **Multimeters** (Analog and Digital)  
-- **Oscilloscope**  
-- **Breadboard**  
-- **Passive Components:**  
-  - Resistors  
-  - Capacitors  
-  - Inductors
+- **Inverse Bias**  
+  - Study of **reverse breakdown** behavior  
+  - Voltage stabilization properties of the Zener diode  
 
 ---
 
-# Installation & Setup Guide
+## Equipment Used
 
-This repository contains laboratory simulations and analysis for **Circuit Theory**, focusing on **RLC series and parallel circuits** and their resonance behavior.  
+The following equipment and components were used during laboratory experimentation:
 
-All simulations are implemented in **NI Multisim**.
+- **DC Power Supply** – Provides variable input voltage  
+- **MCP MT8045 Multimeter** – Digital and analog measurements  
+- **M21-7000A Training System** – Includes breadboard for circuit assembly  
+- **Components**  
+  - Resistors: **4.7 kΩ**, **150 Ω**  
+  - **Silicon diodes**  
+  - **Zener diodes**
+
+---
+
+## Software Tools
+
+- **Multisim** – Simulation and verification of circuit behavior  
+- **MS Visio** – Creation of schematic diagrams for diode polarizations
+
+---
+
+# Installation & Setup Guide  
+
+This guide explains how to install, set up, and use the **Diode** laboratory project.  
+The repository contains **theoretical material**, **Multisim simulations**, **experimental results**, and **diagrams** related to **silicon crystal diodes** and **Zener diodes**.
 
 ---
 
 ## Prerequisites
 
-### Required Software
-- **NI Multisim 14** (or later)  
-  Ensure your system meets the requirements for running `.ms14` files.  
-  Download from [NI Multisim](https://www.ni.com/en-us/shop/electronic-test-instrumentation/application-software-for-electronic-test-and-instrumentation-category/what-is-multisim.html).
-
-### Optional Software
-- **PDF Viewer** for documentation: `Coordination.pdf` / `Συντονισμός.pdf`
+Before working with this project, ensure the following requirements are met.
 
 ---
 
-## Installation Steps
+### 1. Software Requirements
+
+#### NI Multisim
+- **NI Multisim 14 or newer**
+- Required to open and run circuit simulations and verify diode behavior.
+- Used extensively in:
+  - Forward-biased diode experiments
+  - Reverse-biased diode experiments
+  - Zener diode analysis
+
+#### PDF Reader
+- Any modern PDF viewer (Adobe Reader, browser-based, etc.)
+- Required to open:
+  - Assignment descriptions
+  - Theoretical documentation (English & Greek)
+
+#### Diagram Viewer (Optional)
+- **Microsoft Visio** or a compatible viewer
+- Required for `.vsdx` files (e.g., `zener/Q4.vsdx`)
+
+---
+
+### 2. Hardware Requirements (Optional – for Physical Lab Work)
+
+If performing **real laboratory measurements**, the following equipment is required:
+
+- **DC Power Supply**
+- **Digital Multimeter:** MCP MT8045
+- **Training System:** M21-7000A (with breadboard)
+- **Components**
+  - Resistors: **4.7 kΩ**, **150 Ω**
+  - **Silicon diodes**
+  - **Zener diodes**
+
+> Hardware is **not required** if you are only running simulations and reviewing documentation.
+
+---
+
+## Installation & Setup
 
 ### 1. Clone the Repository
+
 ```bash
-git clone https://github.com/Circuit-Theory/Coordination.git
+git clone https://github.com/Electronics-aka-Uniwa/Diode.git
+cd Diode
 ```
 
-### 2. Navigate to Project Directory
-```bash
-cd Coordination
-```
-Ensure the following folder structure exists:
-```bash
-assign/
-docs/
-multisim/
-```
-
----
-
-## Multisim Simulation Files
-
-The repository includes two key simulation files:
-
-| File  | Description |
-|------:|-------------|
-| multisim/CoordinationSerial.ms14 |  RLC series circuit simulation |
-| multisim/CoordinationParallel.ms14 |  RLC parallel circuit simulation |
-
-
-### 3. Open a Simulation in Multisim
+### 2. Open and Run Multisim Simulations
 - Launch NI Multisim.
-- Select File → Open.
-- Navigate to the `multisim/` folder.
-- Open the desired `.ms14` file (series or parallel circuit).
-- Wait for the circuit topology to load.
+- Navigate to the relevant experiment folder, for example:
+```bash
+diode/ForwardDiode/ForwardDiodeSi/
+```
+- Open the provided Multisim project files.
+- Click Run Simulation.
+- Observe:
+  - Diode I–V characteristics
+  - Forward voltage drop
+  - Reverse-bias behavior
+  - Zener breakdown region
+
+### 3. Access Theoretical Documentation
+Open the files located in the `docs/` directory:
+- English: `Diode.pdf`
+- Greek: `Δίοδος.pdf`
+
+These documents cover:
+- PN-junction theory
+- Forward and reverse bias operation
+- Zener diode breakdown behavior
+
+### 4. Review Assignment Instructions
+Navigate to the `assign/` folder:
+- English: `Exercise-3rd-Diode.pdf`
+- Greek: `Άσκηση-3η-Δίοδος.pdf`
+
+Follow these documents for:
+- Required experiments
+- Measurement procedures
+- Expected analysis and conclusions
+
+### 5. Optional: View Diagrams and Graphs
+- Open experimental graphs from:
+```bash
+diode/Graphs/
+zener/Graphs/
+```
+- Open Visio drawings (if available) using Microsoft Visio:
+```bash
+zener/Q4.vsdx
+```
 
 ---
 
-## Open the Documentation
-1. Navigate to the `docs/` directory
-2. Open the report corresponding to your preferred language:
-    - English: `Coordination.pdf`
-    - Greek: `Συντονισμός.pdf`
+## Running the Experiments
+### 1. Silicon Crystal Diode
+- Forward Bias
+  - Measure voltage and current
+  - Observe barrier potential (~0.6 V)
+- Reverse Bias
+  - Confirm minimal current flow
+  - Verify theoretical expectations
+
+### 2. Zener Diode
+- Forward Bias
+  - Analyze conduction characteristics
+-Reverse Bias
+  - Observe breakdown region
+  - Verify voltage stabilization behavior
