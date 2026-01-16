@@ -11,11 +11,11 @@
 <hr/>
 
 <p align="center">
-  <strong>Circuit Theory</strong>
+  <strong>Electronics</strong>
 </p>
 
 <h1 align="center" style="letter-spacing: 1px;">
-  Coordination
+  Diode
 </h1>
 
 <p align="center">
@@ -29,10 +29,11 @@
 </p>
 
 <p align="center">
-  Supervisor: Christos Kampouris, Laboratory Teaching Staff
+  Supervisor: Anastasios Tsilikounas, Laboratory Teaching Staff
 </p>
 <p align="center">
-  <a href="https://www.syros.aegean.gr/en/staff/research-staff/phd-candidates/christos-kampouris" target="_blank">UNIWA Profile</a>
+  <a href="https://ice.uniwa.gr/en/emd_person/anastasios-tsilikounas/" target="_blank">UNIWA Profile</a> ·
+  <a href="https://www.linkedin.com/in/anastasios-tsilikounas-31111566/" target="_blank">LinkedIn</a>
 </p>
 
 <p align="center">
@@ -43,7 +44,7 @@
 </p>
 
 <p align="center">
-  Athens, June 2022
+  Athens, November 2022
 </p>
 
 ---
@@ -58,18 +59,28 @@ The project focuses on the **study and analysis of the resonance effect in RLC c
 
 ## Table of Contents
 
-| Section | Folder | Description |
-|------:|--------|-------------|
-| 1 | `assign/` | Assignment material for the Circuit Theory course |
-| 1.1 | `assign/circuit theory rev2021_EXERCISE_4th.pdf` | Assignment description in English |
-| 1.2 | `assign/θεωρία κυκλωμάτων rev2021_ΑΣΚΗΣΗ_4η.pdf` | Assignment description in Greek |
-| 2 | `docs/` | Documentation on circuit coordination |
-| 2.1 | `docs/Coordination.pdf` | English documentation on coordination concepts |
-| 2.2 | `docs/Συντονισμός.pdf` | Greek documentation on coordination concepts |
-| 3 | `multisim/` | Circuit simulation files |
-| 3.1 | `multisim/CoordinationParallel.ms14` | Multisim file for parallel coordination circuit |
-| 3.2 | `multisim/CoordinationSerial.ms14` | Multisim file for series coordination circuit |
-| 4 | `README.md` | Repository overview and usage instructions |
+| Section | Folder / File | Description |
+|--------:|---------------|-------------|
+| 1 | `assign/` | Assignment material |
+| 1.1 | `assign/Exercise-3rd-Diode.pdf` | Assignment description (English) |
+| 1.2 | `assign/Άσκηση-3η-Δίοδος.pdf` | Assignment description (Greek) |
+| 2 | `components/` | Lab components and equipment images |
+| 3 | `diode/ForwardDiode/ForwardDiodeGe/` | Forward-biased Germanium diode experiments |
+| 3.1 | `diode/ForwardDiode/ForwardDiodeSi/` | Forward-biased Silicon diode experiments |
+| 3.2 | `diode/Graphs/` | Graphical results of diode experiments |
+| 3.3 | `diode/Lab5/` | Lab 5 experimental data and drawings |
+| 3.4 | `diode/NonForwardDiode/NonForwardDiodeGe/` | Reverse-biased Germanium diode experiments |
+| 3.5 | `diode/NonForwardDiode/NonForwardDiodeSi/` | Reverse-biased Silicon diode experiments |
+| 3.6 | `diode/Q5/` | Question 5 experiments and results |
+| 3.7 | `diode/Q6/` | Question 6 experiments and results |
+| 4 | `docs/` | Theoretical documentation |
+| 4.1 | `docs/Diode.pdf` | Diode theory (English) |
+| 4.2 | `docs/Δίοδος.pdf` | Diode theory (Greek) |
+| 5 | `zener/ForwardZener/` | Forward-biased Zener diode experiments |
+| 5.1 | `zener/Graphs/` | Graphical results for Zener diode |
+| 5.2 | `zener/NonForwardZener/` | Reverse-biased Zener diode experiments |
+| 5.3 | `zener/Q4.vsdx` | Question 4 drawings and diagrams |
+| 6 | `README.md` | Repository overview and instructions |
 
 ---
 
